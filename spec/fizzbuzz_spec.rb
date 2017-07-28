@@ -20,6 +20,8 @@ describe Fizzbuzz do
     it { subject.calculate(15).should eq 'fizzbuzz' }
     it { subject.calculate(30).should eq 'fizzbuzz' }
   end
+
+  # 下面是测试 输出 GitHub 的代码
   context 'GitHub number' do
     it { subject.calculate(17).should eq 'GitHub' }
     it { subject.calculate(27).should eq 'GitHub' }
